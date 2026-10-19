@@ -92,44 +92,51 @@
 
     <section id="proyectos" class="section section-alt">
       <div class="container">
-        <div class="section-head"><div><p class="section-kicker">03 / TRABAJO DEMOSTRABLE</p><h2>Proyectos y código.</h2></div><p class="head-aside">Una selección de repositorios públicos. Los proyectos de formación se identifican como tales.</p></div>
+        <div class="section-head"><div><p class="section-kicker">03 / TRABAJO DEMOSTRABLE</p><h2>Proyectos y código.</h2></div><p class="head-aside">Casos de estudio verificados y código académico depurado, con resultados, metodología y alcance de cada análisis.</p></div>
         <div class="filter-row" role="group" aria-label="Filtrar proyectos">
-          <button class="filter active" data-filter="todos" aria-pressed="true">Todos <span>04</span></button>
-          <button class="filter" data-filter="analytics" aria-pressed="false">Analytics</button>
-          <button class="filter" data-filter="engineering" aria-pressed="false">Software</button>
-          <button class="filter" data-filter="ai" aria-pressed="false">IA</button>
+          <button class="filter active" data-filter="todos" aria-pressed="true">Todos <span>05</span></button>
+          <button class="filter" data-filter="analytics" aria-pressed="false">Data Analytics</button>
+          <button class="filter" data-filter="science" aria-pressed="false">Data Science</button>
+          <button class="filter" data-filter="apps" aria-pressed="false">Aplicaciones</button>
         </div>
         <div class="project-grid">
+          <article class="project-card" data-category="science">
+            <div class="project-topline"><span class="project-index">01 / INTRODUCCIÓN A MACHINE LEARNING</span><span class="status">NOTEBOOK DISPONIBLE</span></div>
+            <div class="project-graphic graphic-ml" aria-hidden="true"><div class="ml-display"><div class="ml-row"><span>Random Forest</span><div class="ml-track"><i style="--pct:78.5%"></i></div><strong>78.5%</strong></div><div class="ml-row"><span>Modelo base</span><div class="ml-track"><i style="--pct:68.4%"></i></div><strong>68.4%</strong></div></div></div>
+            <h3>Predicción de planes telefónicos</h3><p>Entrenamiento y comparación de árbol de decisión, Random Forest y regresión logística. Accuracy final de 78.5% en prueba frente a 68.4% del modelo base.</p>
+            <div class="project-tags"><span>Python</span><span>scikit-learn</span><span>Clasificación</span><span>Random Forest</span></div>
+            <a class="project-link" href="projects/ml/" >Ver caso de estudio <span aria-hidden="true">↗</span></a>
+          </article>
           <article class="project-card" data-category="analytics">
-            <div class="project-topline"><span class="project-index">01 / DATA ANALYTICS</span><span class="status">CÓDIGO DISPONIBLE</span></div>
+            <div class="project-topline"><span class="project-index">02 / ESTADÍSTICA Y NEGOCIO</span><span class="status">NOTEBOOK DISPONIBLE</span></div>
+            <div class="project-graphic graphic-telecom" aria-hidden="true"><div class="telecom-ui"><div><span>PLAN 01</span><strong>SURF</strong></div><div><span>PLAN 02</span><strong>ULTIMATE</strong></div></div></div>
+            <h3>Rentabilidad de tarifas telefónicas</h3><p>Cálculo de ingresos y comportamiento mensual de usuarios; comparación de planes y regiones mediante pruebas t de Welch.</p>
+            <div class="project-tags"><span>pandas</span><span>SciPy</span><span>Ingresos</span><span>Pruebas de hipótesis</span></div>
+            <a class="project-link" href="projects/telecom/" >Ver caso de estudio <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="project-card" data-category="apps">
+            <div class="project-topline"><span class="project-index">03 / APLICACIÓN INTERACTIVA</span><span class="status">REPOSITORIO EXISTENTE</span></div>
             <div class="project-graphic graphic-vehicles" aria-hidden="true"><span class="plot-label">Vehicle sales analytics</span><div class="scatter-field"><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b></div><span class="plot-legend">precio ↑ &nbsp; / &nbsp; odómetro →</span></div>
-            <h3>Vehicle Sales Dashboard</h3><p>Aplicación de análisis exploratorio de anuncios de vehículos. Incluye visualizaciones interactivas de kilometraje y la relación entre precio y odómetro.</p>
-            <div class="project-tags"><span>Python</span><span>pandas</span><span>Plotly</span><span>Streamlit</span></div>
-            <a class="project-link" href="https://github.com/uly100f/Sprint-7" target="_blank" rel="noopener noreferrer">Explorar repositorio <span aria-hidden="true">↗</span></a>
+            <h3>Vehicle Sales Dashboard</h3><p>Aplicación Streamlit para explorar anuncios de vehículos con gráficos interactivos de kilometraje y precios.</p>
+            <div class="project-tags"><span>Streamlit</span><span>Plotly</span><span>Python</span><span>Visualización</span></div>
+            <a class="project-link" href="https://github.com/uly100f/Sprint-7" target="_blank" rel="noopener noreferrer">Explorar código <span aria-hidden="true">↗</span></a>
           </article>
-          <article class="project-card" data-category="engineering">
-            <div class="project-topline"><span class="project-index">02 / SOFTWARE & NEGOCIO</span><span class="status">CÓDIGO DISPONIBLE</span></div>
-            <div class="project-graphic graphic-pos" aria-hidden="true"><div class="pos-ui"><div class="pos-line"></div><div class="pos-items"><i></i><i></i><i></i></div><div class="pos-total"></div></div><div class="pos-side"><span>POS</span><span>STOCK</span><span>REPORTS</span></div></div>
-            <h3>BollitosPOS</h3><p>Proyecto de sistema de punto de venta para una panadería, orientado al registro de ventas, inventarios y reportes de gestión.</p>
-            <div class="project-tags"><span>Java</span><span>Spring MVC</span><span>MySQL</span><span>Sistemas</span></div>
-            <a class="project-link" href="https://github.com/uly100f/bollitos-100-pos" target="_blank" rel="noopener noreferrer">Explorar repositorio <span aria-hidden="true">↗</span></a>
+          <article class="project-card" data-category="analytics">
+            <div class="project-topline"><span class="project-index">04 / EXPLORATORY DATA ANALYSIS</span><span class="status">NOTEBOOK DISPONIBLE</span></div>
+            <div class="project-graphic graphic-commerce" aria-hidden="true"><div class="commerce-ui"><div><span>orders</span><strong>●</strong></div><div><span>products</span><strong>●</strong></div><div><span>departments</span><strong>●</strong></div><div><span>shopping patterns</span><strong>EDA</strong></div></div></div>
+            <h3>Hábitos de compra en Instacart</h3><p>Limpieza y análisis exploratorio de cinco tablas de e-commerce: duplicados, valores ausentes, patrones horarios y productos más comprados.</p>
+            <div class="project-tags"><span>pandas</span><span>Limpieza</span><span>EDA</span><span>Matplotlib</span></div>
+            <a class="project-link" href="projects/instacart/" >Ver caso de estudio <span aria-hidden="true">↗</span></a>
           </article>
-          <article class="project-card" data-category="ai">
-            <div class="project-topline"><span class="project-index">03 / PRÁCTICA DE IA</span><span class="status">NOTEBOOK PÚBLICO</span></div>
-            <div class="project-graphic graphic-ai" aria-hidden="true"><div class="ai-nodes"><i></i><span></span><i></i><span></span><i></i></div><div class="ai-wave">RETRIEVAL · CONTEXT · ANSWER</div></div>
-            <h3>Prompt Engineering y RAG</h3><p>Práctica en notebook sobre técnicas de prompting y recuperación de información aumentada para respuestas basadas en documentos.</p>
-            <div class="project-tags"><span>LLMs</span><span>RAG</span><span>Embeddings</span><span>Google Colab</span></div>
-            <a class="project-link" href="https://github.com/uly100f/Hands---On-Prompt-Engineering-y-Sistemas-RAG" target="_blank" rel="noopener noreferrer">Explorar repositorio <span aria-hidden="true">↗</span></a>
-          </article>
-          <article class="project-card" data-category="ai">
-            <div class="project-topline"><span class="project-index">04 / PRÁCTICA DE IA</span><span class="status">NOTEBOOK PÚBLICO</span></div>
-            <div class="project-graphic graphic-llm" aria-hidden="true"><div class="llm-box"><span>INPUT</span><span>MODELO</span><span>OUTPUT</span></div><div class="llm-caption">AI EXPERIMENTS / NOTEBOOK</div></div>
-            <h3>Fundamentos de LLMs con Llama</h3><p>Ejercicios de exploración de modelos de lenguaje en un entorno de práctica, documentados en un notebook público.</p>
-            <div class="project-tags"><span>LLMs</span><span>Llama</span><span>Python</span><span>Práctica</span></div>
-            <a class="project-link" href="https://github.com/uly100f/Hands---On-Fundamentos-de-LLMs-con-Modelos-Llama" target="_blank" rel="noopener noreferrer">Explorar repositorio <span aria-hidden="true">↗</span></a>
+          <article class="project-card" data-category="analytics">
+            <div class="project-topline"><span class="project-index">05 / ESTADÍSTICA APLICADA</span><span class="status">CASO DOCUMENTADO</span></div>
+            <div class="project-graphic graphic-taxis" aria-hidden="true"><div class="taxi-ui"><span>CLIMA Y VIAJES</span><b>≈6 min</b><span>DIFERENCIA</span></div></div>
+            <h3>Clima y duración de viajes en taxi</h3><p>Análisis de extractos provenientes de consultas SQL y contraste de medias con Levene y prueba t. Notebook todavía pendiente de publicación.</p>
+            <div class="project-tags"><span>pandas</span><span>Estadística</span><span>SQL: extractos</span><span>SciPy</span></div>
+            <a class="project-link" href="projects/taxis/" >Ver caso de estudio <span aria-hidden="true">↗</span></a>
           </article>
         </div>
-        <div class="next-projects"><span class="plus-mark">+</span><div><strong>Próximas publicaciones de Data Science</strong><p>Estoy organizando para GitHub proyectos académicos de e-commerce (Instacart), telecomunicaciones, análisis estadístico y clasificación con Machine Learning. Se incorporarán con notebooks, metodología y conclusiones.</p></div></div>
+        <div class="next-projects"><span class="plus-mark">+</span><div><strong>Formación técnica y otros trabajos</strong><p>También he trabajado en un <a href="https://github.com/uly100f/bollitos-100-pos" target="_blank" rel="noopener noreferrer">sistema POS en Java</a> y en <a href="https://github.com/uly100f/Hands---On-Prompt-Engineering-y-Sistemas-RAG" target="_blank" rel="noopener noreferrer">ejercicios de LLMs y RAG</a>. Los notebooks de TripleTen se publican sin los datasets originales y documentan ejercicios académicos, no proyectos de producción.</p></div></div>
       </div>
     </section>
 
