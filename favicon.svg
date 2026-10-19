@@ -1,1 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#0b1221"/><rect x="7" y="7" width="50" height="50" rx="11" fill="#4de0cd"/><text x="32" y="41" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="bold" fill="#0b1221">UC</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Ulyses Data</title>
+  <desc id="desc">Letra U con gráfico de barras y tendencia ascendente</desc>
+  <defs>
+    <linearGradient id="u-gradient" x1="11" y1="12" x2="86" y2="86" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#79B9FF"/>
+      <stop offset=".55" stop-color="#36B8DF"/>
+      <stop offset="1" stop-color="#4DE0CD"/>
+    </linearGradient>
+    <linearGradient id="bar-gradient" x1="35" y1="65" x2="65" y2="29" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6C9FFF"/>
+      <stop offset="1" stop-color="#4DE0CD"/>
+    </linearGradient>
+  </defs>
+  <path d="M17 15v43c0 18.8 12.6 28 31 28s31-9.2 31-28V15" stroke="url(#u-gradient)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="30" y="55" width="8" height="12" rx="2" fill="url(#bar-gradient)"/>
+  <rect x="42" y="47" width="8" height="20" rx="2" fill="url(#bar-gradient)"/>
+  <rect x="54" y="36" width="8" height="31" rx="2" fill="url(#bar-gradient)"/>
+  <path d="m29 49 16-11 15-14" stroke="#D6FBFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="29" cy="49" r="3.2" fill="#4DE0CD"/>
+  <circle cx="45" cy="38" r="3.2" fill="#4DE0CD"/>
+  <circle cx="60" cy="24" r="3.2" fill="#4DE0CD"/>
+</svg>
