@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Análisis de viajes y contrastes de hipótesis para determinar si cambian las duraciones medias entre condiciones climáticas.">
+<meta name="theme-color" content="#0b1221">
+<link rel="stylesheet" href="../../styles.css"><link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<title>Clima y duración de viajes en taxi | Ulyses Cienfuegos</title>
+</head><body>
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header"><div class="container nav-wrap"><a class="brand" href="../../#inicio"><span class="brand-mark">UC</span><span>ULYSES <span class="brand-muted">CIENFUEGOS</span></span></a><nav aria-label="Navegación de proyecto"><a class="nav-cta" href="../../#proyectos">← Volver a los proyectos</a></nav></div></header>
+<main id="contenido" class="case-layout">
+<section class="section case-hero"><div class="container">
+<p class="section-kicker">PROYECTO ACADÉMICO / TRIPLETEN / ESTADÍSTICA APLICADA · SPRINT 8</p>
+<h1 class="case-title">Clima y duración de viajes en taxi</h1><p class="case-lead">Análisis de viajes y contrastes de hipótesis para determinar si cambian las duraciones medias entre condiciones climáticas.</p>
+<div class="project-tags"><span>pandas</span><span>SciPy</span><span>Pruebas de hipótesis</span><span>Levene</span><span>Visualización</span></div>
+<div class="case-actions"><span class="case-pending">Notebook pendiente de revisión y publicación</span><a class="btn btn-secondary" href="../../#proyectos">Explorar más proyectos ↗</a></div>
+<div class="case-stats"><div><strong>≈6 min</strong><span>Diferencia media observada</span></div><div><strong>1.54×10⁻⁷</strong><span>Valor p de la prueba t</span></div><div><strong>0.8195</strong><span>Valor p de Levene</span></div></div>
+</div></section>
+<section class="section section-alt"><div class="container case-content-grid">
+<div><p class="section-kicker">01 / CONTEXTO</p><h2>El problema que abordé</h2><p class="case-paragraph">Comparar las duraciones de viajes de taxi desde el Loop al aeropuerto O'Hare en sábados, clasificadas por condiciones meteorológicas, a partir de resultados de consultas SQL.</p><p class="case-note">Proyecto académico sobre resultados de consultas SQL. El notebook original está en revisión para su publicación y esta página muestra por ahora el caso documentado.</p></div>
+<div><p class="section-kicker">02 / METODOLOGÍA</p><h2>Cómo lo resolví</h2><ol class="case-steps"><li>Revisé tres extractos de datos, con empresas de taxis, zonas de destino y duración de viajes.</li>
+<li>Inspeccioné duplicados y eliminé viajes con duración cero en los datos de la comparación.</li>
+<li>Contrasté la homogeneidad de varianzas con Levene, cuyo resultado fue p≈0.8195.</li>
+<li>Al no hallar diferencias significativas entre varianzas, utilicé una prueba t con equal_var=True para evaluar la diferencia de medias.</li></ol></div>
+</div></section>
+<section class="section"><div class="container">
+<p class="section-kicker">03 / CONCLUSIONES</p><h2>Hallazgos del análisis</h2><div class="finding-grid"><article class="finding-card"><span>01</span><p>El promedio registrado fue de aproximadamente 2,409 segundos en condiciones de mal clima y 2,049 segundos con buen clima.</p></article><article class="finding-card"><span>02</span><p>La diferencia media fue de cerca de 360 segundos, equivalentes a seis minutos.</p></article><article class="finding-card"><span>03</span><p>La prueba t obtuvo un valor p≈1.54×10⁻⁷; la asociación observada no establece por sí sola causalidad.</p></article></div>
+<div class="case-footer-cta"><div><h3>¿Quieres revisar la evidencia?</h3><p>La explicación es una síntesis del notebook académico. Los datos originales no están publicados; consulta el alcance y las instrucciones del código cuando esté disponible.</p></div><a class="btn btn-secondary" href="https://github.com/uly100f/uly100f.github.io" target="_blank" rel="noopener noreferrer">Ver repositorio del portafolio ↗</a></div>
+</div></section></main><footer class="site-footer"><div class="container footer-wrap"><span>© 2026 Ulyses Cienfuegos Osuna</span><span>Proyecto académico · Data Analytics & Data Science</span><a href="../../#proyectos">Volver al portafolio ↑</a></div></footer>
+</body></html>
